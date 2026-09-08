@@ -1,4 +1,4 @@
-# # Enterprise Post-Quantum Cryptography Platform
+# Enterprise Post-Quantum Cryptography Platform
 
 ## Overview
 This project is a full-stack proof of concept demonstrating the integration of Post-Quantum Cryptography (PQC) into an enterprise web application. The backend is built with Flask and integrates liboqs python to demonstrate ML-KEM-based quantum-safe key encapsulation, secure authentication workflows, and protected dashboard access.
@@ -21,7 +21,7 @@ The backend supports:
 - JWT-based session token generation for authenticated access
 - Protected dashboard status responses
 
-### 3. Post-Quantum Encryption Integration
+### 3. Post-Quantum Cryptography Integration
 The project integrates liboqs-python to implement a KEM-based workflow using the ML-KEM-768 algorithm.
 
 Key achievements include:
@@ -93,6 +93,10 @@ To run the backend locally:
 2. Ensure MySQL is running and the `quantum` database exists.
 3. Import the provided SQL schema.
 4. Start the Flask server.
+
+## System Architecture
+
+![Enterprise Post-Quantum Cryptography Platform Architecture](2D3D35F4-7A4C-4763-9A95-E0C3BFB11C73.png)
 
 ## Achievements Summary
 This backend successfully demonstrated a practical proof-of-concept for integrating post-quantum cryptography into a Flask application. It combined secure authentication, database persistence, and quantum-safe key exchange concepts into a working backend architecture suitable for further development and production hardening.
