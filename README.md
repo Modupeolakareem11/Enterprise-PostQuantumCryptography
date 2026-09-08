@@ -1,4 +1,4 @@
-# QuantumShield Backend Technical Documentation
+# # Enterprise Post-Quantum Cryptography Platform#
 
 ## Overview
 This backend project provides a Flask-based API for the QuantumShield application, with Post-Quantum Cryptography (PQC) support implemented using the liboqs-python library. The backend demonstrates how a modern web application can integrate quantum-safe key encapsulation mechanisms for secure authentication workflows and dashboard protection.
