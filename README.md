@@ -1,4 +1,4 @@
-# # Enterprise Post-Quantum Cryptography Platform#
+# # Enterprise Post-Quantum Cryptography Platform
 
 ## Overview
 This project is a full-stack proof of concept demonstrating the integration of Post-Quantum Cryptography (PQC) into an enterprise web application. The backend is built with Flask and integrates liboqs python to demonstrate ML-KEM-based quantum-safe key encapsulation, secure authentication workflows, and protected dashboard access.
